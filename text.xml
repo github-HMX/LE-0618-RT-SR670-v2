@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <note>
+      <loader>
+        <subheading>How to Use this Tour</subheading>
+         <greyLeftTop>For information, click a hotspot on the product.</greyLeftTop>
+         <greyLeftBottom>Or choose a numbered feature button</greyLeftBottom>
+         <greyRightTop>To explore the product in 3D, use these mouse controls.</greyRightTop>
+         <greyRightBottom>Or use the 3D controls below.</greyRightBottom>
+         <loaderOpen>Open</loaderOpen>
+         <loaderZoom>Zoom</loaderZoom>
+         <loaderRotate>Rotate</loaderRotate>
+         <loaderMove>move</loaderMove> 
+         <leftMouse>Left mouse : </leftMouse>
+         <rotateMouse>rotate</rotateMouse>
+         <scrollMouse>Scroll mouse : </scrollMouse>
+         <zoomMouse>Zoom</zoomMouse>
+         <bothMouse>Right mouse : </bothMouse>
+         <pan>Pan</pan>
+      </loader>
+   	<message>
+
+        <onloadCopy>
+            <point1text1>
+            <![CDATA[The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options. It utilizes the newest NVIDIA A100 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.  
+            ]]>
+          </point1text1>
+        </onloadCopy>
+        
+<!--
+            <textFadeClass_01>        
+                <firstChild>Transform IT</firstChild>
+                <secondchild>into a Demand-driven Delivery Engine</secondchild>
+            </textFadeClass_01>
+        
+            <textFadeClass_02>        
+                <firstChild>Rapid Delivery</firstChild>
+                <secondchild>with Turn-key, End-to-end Automation</secondchild>
+            </textFadeClass_02>
+                
+            <textFadeClass_03>        
+                <firstChild>Easy to Manage</firstChild>
+                <secondchild>without Specialized Skills</secondchild>
+            </textFadeClass_03>
+            <textFadeClass_04>        
+                <firstChild>Simple to Scale</firstChild>
+                <secondchild>with Adaptable, Flexible Capacity</secondchild>
+            </textFadeClass_04>
+            <textFadeClass_05>        
+                <firstChild>Low Maintenance</firstChild>
+                <secondchild>with Automated, Managed Updates</secondchild>
+            </textFadeClass_05>
+        
+-->
+<!--
+          <point0text1>
+            <![CDATA[Whisper quiet acoustics
+            ]]>
+         </point0text1>
+         <point0text2>
+            <![CDATA[ Continuous operation at 45°C
+            ]]>
+         </point0text2>
+         <point0text3>
+            <![CDATA[Energy Star compliance
+            ]]>
+         </point0text3>
+         <point0text4>
+             <![CDATA[High efficiency, redundant, and <br><span id="overviewtx1"></span>hot-swap power supply options
+            ]]>
+         </point0text4>
+-->
+      </message>
+<!--
+      <pointtext1>
+         <point1text1>
+            <![CDATA[<span>Cloud Controller</span>Manage from Anywhere
+            ]]>
+         </point1text1>
+         <point1text2>
+            <![CDATA[ Turnkey Cloud Experience
+            ]]>
+         </point1text2>
+         <point1text3>
+            <![CDATA[<span>Stack</span> Secure in Your Data Center
+            ]]>
+         </point1text3>
+         <point1text4>
+            <![CDATA[Independently Scalable Capacity
+            ]]>
+         </point1text4>
+           <point1text5>
+            <![CDATA[Application <span>Infrastructure</span> Composability
+            ]]>
+         </point1text5>
+           <point1text6>
+            <![CDATA[Software-defined Agility
+            ]]>
+         </point1text6>
+           <point1text7>
+            <![CDATA[Network Interconnect<span>Adaptive Overlay Network</span>
+            ]]>
+         </point1text7>
+           <point1text8>
+            <![CDATA[Compute Block<span>Spark Hypervisor</span>
+            ]]>
+         </point1text8>
+           <point1text9>
+            <![CDATA[Storage Block<span>Elastic Flash</span>
+            ]]>
+         </point1text9>
+          <point1text10>
+            <![CDATA[Network
+            ]]>
+         </point1text10>
+          <point1text11>
+            <![CDATA[Compute
+            ]]>
+         </point1text11>
+          <point1text12>
+            <![CDATA[Storage
+            ]]>
+         </point1text12>
+          
+         <point1text13>
+            <![CDATA[Unified Multi-site Management
+            ]]>
+         </point1text13>
+         <point1text14>
+            <![CDATA[Fully Integrated & Automated
+            ]]>
+         </point1text14>
+         <point1text15>
+            <![CDATA[Multi-tenant, Self-service
+            ]]>
+         </point1text15>
+         <point1text16>
+            <![CDATA[Application Marketplace
+            ]]>
+         </point1text16>  
+      </pointtext1>
+-->
+         <point2text>
+         
+         <point2text1>
+             <![CDATA[ 
+             ]]>
+         </point2text1>
+					 
+         <point2text2>
+             <![CDATA[ USB 3.0 
+             ]]>
+         </point2text2>
+					 
+         <point2text3> 
+             <![CDATA[ XClarity Controller USB 
+             ]]>
+         </point2text3>
+					 
+         <point2text4>
+             <![CDATA[ Power button/status LED
+             ]]>
+         </point2text4>
+					 
+         <point2text5>
+             <![CDATA[ System ID LED 
+             ]]>
+         </point2text5>
+					 
+         <point2text6>
+             <![CDATA[ System error LED
+             ]]>
+         </point2text6>
+					 
+         <point2text7>
+             <![CDATA[ Network activity LED
+             ]]>
+         </point2text7>
+          
+        <point2text8>
+             <![CDATA[ Optional VGA connector
+             ]]>
+         </point2text8>
+
+        <point2text9>
+           <![CDATA[ 
+             ]]>
+         </point2text9>
+        
+      </point2text>
+
+       
+<point3text>
+      
+          <headingText>
+             <![CDATA[One configuration of the ThinkSystem SR670 V2 employs the unique Lenovo Neptune™ hybrid liquid cooling technology and 8x NVMe drives.  Combined with four NVIDIA HGX-A100 GPUs with NVLink, this powerful server delivers an optimized enterprise-grade solution for deploying accelerated HPC and AI workloads in production.
+             ]]>
+         </headingText>
+         <point3text1>
+             <![CDATA[ Water Inlet
+             ]]>
+         </point3text1>
+         <point3text2>
+             <![CDATA[ Water outlet
+
+             ]]>
+         </point3text2>
+            <point3text3>
+                <![CDATA[ 2x 3<sup>rd</sup> Gen Intel® Xeon® Scalable Family processors with liquid-cooled cold plates 
+             ]]>
+         </point3text3>
+         <point3text4>
+             <![CDATA[ 4x NVIDIA® A100 GPUs with liquid-cooled plates
+             ]]>
+         </point3text4>
+         <point3text5>
+             <![CDATA[ Pull-out information tag
+             ]]>
+         </point3text5>
+         <point3text6>
+             <![CDATA[ Up to 24x 2.5-inch hot-swap drive bays: 24x SAS/SATA or 24x AnyBay or 24x NVMe
+             ]]>
+         </point3text6>
+        
+       </point3text>   
+		 
+		 
+      <point4text>
+          
+         <point4heading>
+             <![CDATA[ 
+                The SR670 V2 employs a specialized technology that transfers heat from the 4 NVIDIA HGX-A100 GPUs via a multi-chamber pump in a self-contained liquid loop. Heat is then transferred into an optimized fin-layout radiator where airflow further transfers heat from liquid to air, finally dissipating it out the back of the server.   
+             ]]>
+         </point4heading>
+         <point4text1>
+             <![CDATA[ 2x 3rd Gen Intel® Xeon® Scalable Family processors with liquid-cooled cold plates
+
+             ]]>
+         </point4text1>
+         <point4text2>
+            <![CDATA[ Water outlet
+
+            ]]>
+         </point4text2>
+          <point4text3>
+            <![CDATA[ 4x NVIDIA® A100 GPUs with liquid-cooled plates
+
+            ]]>
+         </point4text3>
+          <point4text4>
+            <![CDATA[Water inlet
+            ]]>
+         </point4text4>
+          <point4text5>
+            <![CDATA[ TruDDR4  insulated DIMM slots
+
+            ]]>
+         </point4text5>
+          <point4text6>
+             <![CDATA[ PCIe slots
+
+             ]]>
+         </point4text6>  
+         <point4text7>
+             <![CDATA[ 2x SSDs (shown)or PCIe adapter
+             ]]>
+         </point4text7>  
+         <point4text8>
+             <![CDATA[ Intel CPU #4 + 12x DIMMs
+             ]]>
+         </point4text8> 
+    </point4text>
+       <point5text>
+         <point5heading>
+             <![CDATA[ The SR850 V2 is configurable with 2x 7mm drives + 4x PCI slots + 1x OCP 3.0 slot, or up to 7x PCIe slots + 1x OCP 3.0 slots  
+
+             ]]>
+         </point5heading>
+         <point5text1>
+            <![CDATA[ Best-in-class, dripless quick connects shared between two nodes
+
+
+            ]]>
+         </point5text1>
+         <point5text2>
+            <![CDATA[ Parallel loop ensuring <5°C ΔT between CPU1 and CPU2 for max performance.
+
+            ]]>
+         </point5text2>
+          <point5text3>
+            <![CDATA[ Direct liquid cooling for 2.5” NVME drives and PCIe adapters 
+
+            ]]>
+         </point5text3>
+          <point5text4>
+            <![CDATA[ Direct liquid cooling for memory DIMMs with insulated slots 
+
+            ]]>
+         </point5text4>
+          <point5text5>
+            <![CDATA[  Direct liquid cooling for 400W NVIDIA 40GB SXM4 GPUs
+
+            ]]>
+         </point5text5>
+          <point5text6>
+            <![CDATA[  Video port
+            ]]>
+         </point5text6>
+          <point5text7>
+            <![CDATA[  2x USB 3.1 G1 ports
+            ]]>
+         </point5text7>
+          <point5text8>
+            <![CDATA[  XCC Mgmt port
+            ]]>
+         </point5text8>
+          <point5text9>
+            <![CDATA[  ID button & LEDs
+            ]]>
+         </point5text9>
+          <point5text10>
+            <![CDATA[  NMI
+            ]]>
+         </point5text10>
+          <point5text12>
+            <![CDATA[ OCP 3.0 Ethernet slot
+            ]]>
+         </point5text12>
+         <point5text13>
+            <![CDATA[  Non-functional slot
+
+            ]]>
+         </point5text13> 
+         
+      </point5text>
+
+      <point6text>
+         <point6heading>
+             <![CDATA[ The SR670 V2 features a modular design for ultimate flexibility, with six different front shuttle options that include a choice of front or rear high-speed networking and local high speed NVMe storage.
+
+             ]]>
+         </point6heading>
+         <point6text1>
+            <![CDATA[ 4 NVIDIA HGX SXM A100 GPUs with NVLink and Lenovo Neptune™ hybrid liquid cooling and 8x NVMe drives
+            ]]>
+         </point6text1>
+         <point6text2>
+            <![CDATA[ Up to 8 double-wide NVIDIA A100 PCIe GPUs with NVLink and 8x EDSFF NVMe drives
+            ]]>
+         </point6text2>
+          <point6text3>
+            <![CDATA[ Up to 8 single-width GPUs or 4x double-wide PCIe GPUs with Up to 8x 2.5” or 4x 3.5” drives (AnyBay)
+            ]]>
+         </point6text3>
+          <point6text4>
+            <![CDATA[  (Click to explore)
+            ]]>
+         </point6text4>
+          <point6text5>
+            <![CDATA[  (Click to explore)
+            ]]>
+         </point6text5>
+          <point6text7>
+            <![CDATA[  (Click to explore)
+            ]]>
+         </point6text7>
+          
+          <point6text8>
+            <![CDATA[  Lenovo EveryScale OVX Solution for NVIDIA Omniverse
+            ]]>
+         </point6text8>
+          <point6text9>
+            <![CDATA[  (Click to explore)
+            ]]>
+         </point6text9>
+          <point6text10>
+            <![CDATA[  NMI
+            ]]>
+         </point6text10>
+          <point6text11>
+            <![CDATA[ OCP 3.0 Ethernet slot
+            ]]>
+         </point6text11>
+<!--
+         <point6text11>
+            <![CDATA[  ML2
+            ]]>
+         </point6text11> 
+         <point6text12>
+            <![CDATA[  x8/x8/x8 FH PCIe riser or
+                       x8/x8/x8ML2 FH PCIe riser or
+                       x8/x16ML2 FH PCIe riser*
+            ]]>
+         </point6text12>  
+-->
+      </point6text>
+       
+       
+       <point7text>
+        <point7headingText>
+             <![CDATA[Interior – 2 Processor, 24 DIMM
+             ]]>
+         </point7headingText>
+        <point7text1>            
+            <![CDATA[ The NVIDIA A100 introduces groundbrnew features to optimize inference workloads. It brings unprecedented versatility by accelerating a full range of precisions, from FP32 to FP16 to INT8 and all the way down to INT4. Multi-Instance GPU (MIG) technology allows multiple networks to operate simultaneously on a single A100 GPU for optimal utilization of compute resources. And structural sparsity support delivers up to 2X more performance on top of A100’s other inference performance gains.
+
+            ]]>
+        </point7text1>   
+        <point7text2>            
+            <![CDATA[ Drive backplanes
+            ]]>
+        </point7text2>
+        <point7text3>            
+            <![CDATA[ Intel CPU #1 + 12x DIMMs 
+            ]]>
+        </point7text3>
+        <point7text4>            
+            <![CDATA[ Onboard SATA
+            ]]>
+        </point7text4>
+        <point7text5>            
+            <![CDATA[ Riser 2 slot Slots 5 & 6
+            ]]>
+        </point7text5>
+        <point7text6>            
+            <![CDATA[ 7mm drive connector 
+            ]]>
+        </point7text6>
+        <point7text7>            
+            <![CDATA[Slots 7 & 8
+            ]]>
+        </point7text7>
+        <point7text8>            
+            <![CDATA[Intel CPU #2 + 12x DIMMs
+            ]]>
+        </point7text8>
+        <point7text9>            
+            <![CDATA[Intrusion switch
+            ]]>
+        </point7text9>
+        <point7text10>            
+            <![CDATA[Riser 1 Slots 1-3
+            ]]>
+        </point7text10>
+        <point7text11>            
+            <![CDATA[4x UPI connectors for expansion tray
+            ]]>
+        </point7text11>
+        <point7text13>            
+            <![CDATA[6x N+1 redundant hot-swap fans
+            ]]>
+        </point7text13>   
+       
+      </point7text>
+       
+      
+      <point8text>
+         <point8headingText>
+             <![CDATA[Interior – 4 Processor, 48 DIMM
+             ]]>
+         </point8headingText>  
+         <point8text1>
+              <![CDATA[ Power supplies, controller and dripless water manifold connections are in the rear. 
+
+              ]]>
+         </point8text1>
+        <point8text2>
+             <![CDATA[ 6x N+1 redundant hot-swap fans
+             ]]>
+         </point8text2>
+        <point8text3>
+             <![CDATA[ Processor and Memory Expansion Tray
+             ]]>
+         </point8text3>
+        <point8text4>
+             <![CDATA[  Intel CPU #3 + 12x DIMMs
+             ]]>
+         </point8text4>
+         <point8text5>
+             <![CDATA[ PCIe x 16 for NVMe
+             ]]>
+         </point8text5>
+         <point8text6>
+             <![CDATA[ Reserved (PCIe x32)
+             ]]>
+         </point8text6> 
+         <point8text7>
+             <![CDATA[ PCIe x 16 to Slot 5
+             ]]>
+         </point8text7>  
+         <point8text8>
+             <![CDATA[ PCIe x 16 for NVMe
+             ]]>
+         </point8text8>  
+         <point8text9>
+             <![CDATA[ Intel CPU #4 + 12x DIMMs
+             ]]>
+         </point8text9>  
+     
+      </point8text>
+       
+    <point9text>
+         <point9headingText>
+             <![CDATA[  
+             ]]>
+         </point9headingText>
+         <point9text1>
+             <![CDATA[ The DW612 Enclosure is an efficient 6U, 6-bay chassis that accommodates up to 6 water cooled compute trays, each with two independent two-processor nodes. Designed to deliver ultra-density, each holds twice the number of servers in the same rack space. 
+             ]]>
+         </point9text1>
+        <point9text2>
+            <![CDATA[  Bay 11
+             ]]>
+       </point9text2>
+        <point9text3>
+            <![CDATA[  Bay 9
+             ]]>
+       </point9text3>
+        <point9text4>
+            <![CDATA[  Bay 7
+             ]]>
+       </point9text4>
+        <point9text5>
+            <![CDATA[  Bay 5
+             ]]>
+       </point9text5>
+         <point9text6>
+            <![CDATA[  Bay 3
+             ]]>
+       </point9text6>
+        <point9text7>
+            <![CDATA[  Bay 1
+             ]]>
+       </point9text7>
+        <point9text8>
+            <![CDATA[  Bay 2
+             ]]>
+       </point9text8>
+        <point9text9>
+            <![CDATA[  Bay 4
+             ]]>
+       </point9text9>
+        <point9text10>
+            <![CDATA[  Bay 6
+             ]]>
+       </point9text10>
+        <point9text11>
+            <![CDATA[  Bay 8
+             ]]>
+       </point9text11>
+         <point9text12>
+            <![CDATA[  Bay 10
+             ]]>
+       </point9text12>
+        <point9text13>
+            <![CDATA[  Bay 12
+             ]]>
+       </point9text13>
+    </point9text>
+       
+      <point10text>
+        <headingText>
+             <![CDATA[
+             ]]>
+         </headingText>
+        <point10text1>            
+            <![CDATA[ 
+            ]]>
+<!--            Power supplies, controller and dripless water manifold connections are in the rear.-->
+        </point10text1>
+        <point10text2>            
+            <![CDATA[The Lenovo ThinkSystem SD650-N V2 server and the DW612 Direct Water Cooling (DWC) enclosure deliver super-charged performance and unparalleled energy savings.
+
+            ]]>
+        </point10text2>
+        <point10text3>            
+            <![CDATA[The system supports up to 45°C water intake to remove up to 90% of the internal heat without using external chillers. Because system cooling fans are eliminated, the system can save customers up to 40% on energy costs while delivering 15% or more performance improvement over air-cooled systems.  
+
+            ]]>
+        </point10text3>
+        <point10text4>            
+            <![CDATA[Based on two 3rd Gen Intel® Xeon® Scalable processors with four NVIDIA HGX A100 GPU acceleration and NVIDIA HDR InfiniBand networking, the ThinkSystem SD650-N V2 can deliver up to 3 PFLOPs of compute performance in a single rack.
+            ]]>
+        </point10text4>
+        <point10text5>            
+            <![CDATA[Vastly Improved performance
+            ]]>
+        </point10text5>
+        <point10text6>            
+            <![CDATA[Common to all 2S and 4S ThinkSystem servers
+            ]]>
+        </point10text6>
+        <point10text7>            
+            <![CDATA[Fresh & uncluttered graphical interface
+            ]]>
+        </point10text7>
+        <point10text8>            
+            <![CDATA[Built on Redfish-compliant APIs
+            ]]>
+        </point10text8>
+        <point10text9>            
+            <![CDATA[2x faster boot time to OS screen
+            ]]>
+        </point10text9>
+        <point10text10>            
+            <![CDATA[6x faster firmware updates
+            ]]>
+        </point10text10>
+      </point10text>
+       
+       
+  <point11text>
+         <point11text1>
+            <![CDATA[ "From Where You Are, To Where You Want To Be"
+            ]]>
+         </point11text1>
+         <point11text2>
+            <![CDATA[ Solution Services
+            ]]>
+         </point11text2>
+         <point11text3>
+            <![CDATA[ Implementation Services
+            ]]>
+         </point11text3>
+          <point11text4>
+            <![CDATA[ Support Services
+            ]]>
+          </point11text4>
+         <point11text7>
+            <![CDATA[ Lenovo TruScale Infrastructure Services
+            ]]>
+          </point11text7>
+          
+          <point11text6>
+            <![CDATA[ Our proven experts guide you on your digital transformation and help you reach your unique strategic and business goals through:
+            ]]>
+         </point11text6>
+         <point11text11>
+            <![CDATA[ Accelerate time to productivity to focus on your customers and growing business.
+            ]]>
+         </point11text11>
+<!--
+         <point11text12>
+            <![CDATA[ TruScale Infrastructure Services
+            ]]>
+         </point11text12>
+-->
+         <point11_li1_1>
+            <![CDATA[ Workshops
+            ]]>
+         </point11_li1_1>
+         <point11_li1_2>
+            <![CDATA[ Assessments
+            ]]>
+         </point11_li1_2>
+         <point11_li1_3>
+            <![CDATA[ Designs
+            ]]>
+         </point11_li1_3>
+       <point11_li1_4>
+            <![CDATA[ Asset Recovery
+            ]]>
+         </point11_li1_4>
+          
+         <point11_li2_1>
+            <![CDATA[ Hardware Installation
+            ]]>
+         </point11_li2_1>
+         <point11_li2_2>
+            <![CDATA[ Deployment
+            ]]>
+         </point11_li2_2>  
+         <point11_li2_3>
+            <![CDATA[ Migration and Expansion
+            ]]>
+         </point11_li2_3>  
+            <point11_li2_4>
+            <![CDATA[  Factory Integration
+            ]]>
+         </point11_li2_4> 
+         <point11_li3_1>
+            <![CDATA[ Premier Support
+            ]]>
+         </point11_li3_1>
+         <point11_li3_2>
+            <![CDATA[ Managed Services
+            ]]>
+         </point11_li3_2>  
+         <point11_li3_3>
+            <![CDATA[ Preconfigured Support
+            ]]>
+         </point11_li3_3> 
+         <point11_li3_4>
+            <![CDATA[ Technical Account Management
+            ]]>
+         </point11_li3_4>
+         <point11_li3_5>
+            <![CDATA[ Health Check Services
+            ]]>
+         </point11_li3_5>
+      
+         <point11_li4_1>
+            <![CDATA[ The Pay-For-What-You-Use Data Center
+            ]]>
+         </point11_li4_1>
+         <point11_li4_2>
+            <![CDATA[ Hardware Environments Tailored To Your Specific Business Needs
+            ]]>
+         </point11_li4_2>
+      </point11text>
+
+      <point12text>
+         <point12text1>
+              <![CDATA[ Power supplies, controller anddripless water manifold connections (shown) are in the rear.               ]]>
+<!--             Support for up to 48 TruDDR4 memory DIMMs.-->
+
+         </point12text1>
+         <point12text2>
+             <![CDATA[ Also supports  up to 24 Intel® Optane™ Persistent Memory 200 Series modules designed for cloud and databases, in-memory analytics and content delivery networks.
+             ]]>
+         </point12text2>
+      </point12text> 
+        <point13text>
+         <point13text1> 
+              <![CDATA[ Lenovo Intelligent Computing Orchestration (LiCO) is a software solution designed to abstract users from the complexity of HPC cluster orchestration. LiCO delivers web-portal access for deploying, monitoring and managing HPC & AI workloads.  Featuring standard and customizable deployment templates, drag and drop cluster storage access, and tools optimized for AI use cases, LiCO increases productivity for cluster users.
+ 
+              ]]>
+         </point13text1>
+       
+      </point13text> 
+       <point2text>
+         <point2text1> 
+              <![CDATA[ All SR670 V2 configurations feature two 3<sup>rd</sup> Gen Intel® Xeon® Platinum Processors for the ultimate in processing power needed for enterprise-class performance. 
+
+              ]]>
+         </point2text1>
+       
+      </point2text> 
+       
+        <point14text>
+         <point14text1> 
+              <![CDATA[ The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options.  It utilizes the newest NVIDIA A100 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.
+
+              ]]>
+         </point14text1>
+            <point14text2>
+                 <![CDATA[ 4 SXM GPU / 8 SFF configuration shown
+              ]]>
+            </point14text2>
+       
+      </point14text> 
+        <point15text>         
+         <point15heading>
+             <![CDATA[ 
+                This configuration accomodates up to four NVIDIA HGX-A100 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+             ]]>
+         </point15heading>         
+    </point15text>
+       
+    <point16text>         
+         <point16heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array of industries and applications.    
+             ]]>
+         </point16heading>        
+            <point16text1>
+            <![CDATA[  4x NVIDIA HGX-A100 GPUs with NVLink  under 8x 2.5” NVMe drives
+            ]]>
+         </point16text1>
+        <point16text2>
+            <![CDATA[  Front shuttle
+            ]]>
+         </point16text2>
+        <point16text3>
+            <![CDATA[  5x simple-swap fans
+            ]]>
+         </point16text3>
+        <point16text4>
+            <![CDATA[  16x DIMM slots
+            ]]>
+         </point16text4>
+        <point16text5>
+            <![CDATA[  2x Gen 3 Intel® Xeon® Scalable family processors
+            ]]>
+         </point16text5>
+        <point16text6>
+            <![CDATA[  GPU Power Boost Board
+            ]]>
+         </point16text6>
+    </point16text>
+       
+         <point17text>         
+         <point17heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point17heading>       
+              <point17text1>
+            <![CDATA[ Operator panel
+            ]]>
+         </point17text1>
+              <point17text2>
+            <![CDATA[  8x 2.5” drives
+            ]]>
+         </point17text2>
+              <point17text3>
+            <![CDATA[  2x 16 SW slots (or rear IO)
+            ]]>
+         </point17text3>
+              <point17text4>
+            <![CDATA[  Asset tag ]]>
+         </point17text4>
+         <point17text5>
+            <![CDATA[  USB, Video and External Diagnostics Handset ports ]]>
+         </point17text5>
+    </point17text>
+       
+    <point18text>   
+        
+        
+         <point18heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point18heading>         
+         <point18text1>
+            <![CDATA[ Up to two PCle 4.0 x16 slots
+            ]]>
+         </point18text1>
+        <point18text2>
+            <![CDATA[ Up to two PCle 4.0 x16 slots
+            ]]>
+         </point18text2>
+        <point18text3>
+            <![CDATA[ Up to two PCle 4.0 x16 slots
+            ]]>
+         </point18text3>
+        <point18text4>
+            <![CDATA[ OCP 3.0 slot ]]>
+         </point18text4>
+        <point18text5>
+            <![CDATA[ GbE Mgmt
+            ]]>
+         </point18text5>
+        <point18text6>
+            <![CDATA[ 2x USB
+            ]]>
+         </point18text6>
+        <point18text7>
+            <![CDATA[ 1x VGA
+            ]]>
+         </point18text7>
+        <point18text8>
+            <![CDATA[ 1x USB
+            ]]>
+         </point18text8>
+        <point18text9>
+            <![CDATA[ Up to 4x 2400W N+N 80 PLUS® Platinum hot-swap redundant PSUs
+            ]]>
+         </point18text9>
+    </point18text>
+       
+     <point19text>         
+         <point19heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point19heading>         
+    </point19text>
+       
+    <point20text>   
+         <headingText>
+             <![CDATA[ 
+                This configuration accommodates four NVIDIA double-wide PCIe A100 GPUs and up to 6 EDSFF drives, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.  
+             ]]>
+         </headingText>   
+        
+          <point20text1>
+            <![CDATA[ 8x NVIDIA A100 PCIe GPUs with NVLink Bridge
+            ]]>
+         </point20text1>
+        
+        <point20text2>
+            <![CDATA[ Up to 6x EDSFF drives
+            ]]>
+         </point20text2>
+        
+        <point20text3>
+            <![CDATA[ 5x simple-swap fans
+            ]]>
+         </point20text3>
+        
+        <point20text4>
+            <![CDATA[ 2x Gen 3 Intel® Xeon®  Scalable family processors
+            ]]>
+         </point20text4>
+        
+         <point20text5>
+            <![CDATA[ 16x DIMM slots
+            ]]>
+         </point20text5>
+        
+        <point20text6>
+            <![CDATA[ 2x PCIe adapters
+            ]]>
+         </point20text6>
+        
+        <point20text7>
+            <![CDATA[ Front shuttle
+            ]]>
+         </point20text7>
+    </point20text>
+       
+    <point21text>         
+         <point21heading>
+             <![CDATA[ 
+               This configuration accommodates up to eight NVIDIA A100 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+             ]]>
+         </point21heading>         
+    </point21text>
+       
+    <point22text>         
+         <point22heading>
+             <![CDATA[ 
+                Five large 80mm counter-rotating fans provide massive air cooling at approximately 300 CFM through the system. In addition, the Intel processors are equipped with top-end 3U heat sinks, each capable of cooling 270 watts. Each PSU has its own dedicated fan to assist in the chassis air cooling.            
+            ]]>
+         </point22heading>         
+    </point22text>
+       
+    <point23text>         
+         <point23heading>
+             <![CDATA[ 
+                This configuration accommodates up to eight NVIDIA A100 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+             ]]>
+         </point23heading>  
+        
+         <point23text1>
+            <![CDATA[ Opreator panel
+            ]]>
+         </point23text1>
+        
+        <point23text2>
+            <![CDATA[ Up to 6x EDSFF drives
+            ]]>
+         </point23text2>
+        
+        <point23text3>
+            <![CDATA[ Asset tag
+            ]]>
+         </point23text3>
+        
+        <point23text4>
+            <![CDATA[ 2x PCIe slots for front-access I/O
+            ]]>
+         </point23text4>
+        
+        <point23text5>
+            <![CDATA[ 8x NVIDIA DW A100 PCIe GPUs with NVLink Bridge
+            ]]>
+         </point23text5>
+    </point23text>
+       
+    <point24text>         
+         <point24heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point24heading>         
+        
+        <point24text1>
+            <![CDATA[ Up to 2x16 FHHL SW (mechanically 4 slots reserved )
+            ]]>
+         </point24text1>
+        <point24text2>
+            <![CDATA[ Up to 2 x16 FHHL (mechanically 4 slots reserved)
+            ]]>
+         </point24text2>
+        <point24text3>
+            <![CDATA[ Optional 12V to 54V Boost Card
+            ]]>
+         </point24text3>
+        <point24text4>
+            <![CDATA[ OCPNIC3 x8 or x16
+            ]]>
+         </point24text4>
+        <point24text5>
+            <![CDATA[ GbE Mgmt
+            ]]>
+         </point24text5>
+        <point24text6>
+            <![CDATA[ 2x USB
+            ]]>
+         </point24text6>
+        <point24text7>
+            <![CDATA[ 1x VGA
+            ]]>
+         </point24text7>
+        <point24text8>
+            <![CDATA[ 1x USB
+            ]]>
+         </point24text8>
+        <point24text9>
+            <![CDATA[ Up to 4x 2400W N+N 80 PLUS® Platinum hot-swap redundant PSUs
+            ]]>
+         </point24text9>
+    </point24text>
+       
+       <point25text>         
+         <point25heading>
+             <![CDATA[ 
+                This configuration accomodates up to 4 double-wide NVIDIA A100 PCle GPUs, delivering optimal performance for AI and HPC workloads across an array of industries and applications.
+             ]]>
+         </point25heading>         
+    </point25text>
+       
+       <point26text>         
+         <point26heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point26heading>  
+           
+            <point26text1>
+            <![CDATA[ 5x hot-swap fans
+            ]]>
+         </point26text1>
+        <point26text2>
+            <![CDATA[ 4x  NVIDIA double-wide A100 GPUs (shown) or 
+                      8x NVIDIA single-wide A10 PCIe GPUs (special order only)
+            ]]>
+         </point26text2>
+        <point26text3>
+            <![CDATA[ 2x Gen 3 Intel® Xeon® Scalable family processors
+            ]]>
+         </point26text3>
+        <point26text4>
+            <![CDATA[ 2x PCIe adapters
+            ]]>
+         </point26text4>
+        <point26text5>
+            <![CDATA[ 16x DIMM slots
+            ]]>
+         </point26text5>
+        <point26text6>
+            <![CDATA[ Front shuttle  
+            ]]>
+         </point26text6>
+        <point26text7>
+            <![CDATA[ Up to 8x 2.5” NVMe drives
+            ]]>
+         </point26text7>
+    </point26text>
+       
+       
+       <point27text>         
+         <point27heading>
+             <![CDATA[ 
+                This configuration accommodates up to 4 double-wide NVIDIA A100 PCIe GPUs, delivering optimal performance for AI, HPC and graphical workloads across an array of industries and applications.  
+
+             ]]>
+         </point27heading>         
+    </point27text>
+       
+       
+       <point28text>         
+         <point28heading>
+             <![CDATA[ 
+                Five large 80mm counter-rotating fans provide massive air cooling at approximately 300 CFM through the system. The Intel processors are equipped with top-end 3U heat sinks, each capable of cooling 270 watts. In addition, each PSU has its own dedicated fan to assist in air cooling the chassis.  
+             ]]>
+         </point28heading>         
+    </point28text>
+       
+       <point29text>         
+         <point29heading>
+             <![CDATA[ 
+                Five large 80mm counter-rotating fans provide massive air cooling at approximately 300 CFM through the system. In addition, the Intel processors are equipped with top-end 3U heat sinks, each capable of cooling 270 watts.Each PSU has its own dedicated fan to assist in the chassis air cooling.  
+             ]]>
+         </point29heading> 
+           <point29text1>
+            <![CDATA[ Opreator panel
+            ]]>
+         </point29text1>
+        <point29text2>
+            <![CDATA[ Up to 8x 2.5” NVMe drives
+            ]]>
+         </point29text2>
+        <point29text3>
+            <![CDATA[ 4x NVIDIA DW PCIe A100 GPUs
+            ]]>
+         </point29text3>
+        <point29text4>
+            <![CDATA[ Asset tag
+            ]]>
+         </point29text4>
+           <point29text5>
+            <![CDATA[ USB, Video and External Diagnostics Handset ports ]]>
+         </point29text5>
+    </point29text>
+       
+       <point30text>         
+         <point30heading>
+             <![CDATA[ 
+                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+             ]]>
+         </point30heading>         
+    </point30text>
+       <point34text>         
+         <point34heading>
+             <![CDATA[ 
+               Lenovo and NVIDIA have worked together to deliver real-time remote work and Digital Twin capabilities through the Lenovo EveryScale OVX solution enabled by NVIDIA Omniverse™ Enterprise software and Lenovo ThinkSystem™ platforms leveraging the latest NVIDIA GPU accelerators and networking.    
+             ]]>
+         </point34heading> 
+            <point34text1>
+            <![CDATA[ 8x NVIDIA A40 GPUs
+            ]]>
+         </point34text1>
+        
+        <point34text2>
+            <![CDATA[ Up to 6x EDSFF drives
+            ]]>
+         </point34text2>
+        
+        <point34text3>
+            <![CDATA[ 1x Mellanox ConnectX-6 Lx 10/25GbE 2-Port OCP Ethernet Adapter
+            ]]>
+         </point34text3>
+        
+        <point34text4>
+            <![CDATA[ 2x Intel Xeon Platinum processors 1TB of system memory (32x 32GB)
+            ]]>
+         </point34text4>
+        
+         <point34text5>
+            <![CDATA[ 4x Mellanox ConnectX-6 HDR/200GbE 1-port VPI Adapters
+
+            ]]>
+         </point34text5>
+        
+        <point34text6>
+            <![CDATA[ 4x 2400W hot-swap power supplies
+            ]]>
+         </point34text6>
+        
+        <point34text7>
+            <![CDATA[ Front shuttle
+            ]]>
+         </point34text7>
+    </point34text>
+       
+       
+      <buttons>
+         <backText>BACK</backText>
+         <!--<openCloseDiv>OPEN</openCloseDiv>-->
+         <zoomText>ZOOM</zoomText>
+         <roatateText>ROTATE</roatateText>
+         <moveText>MOVE</moveText>
+         <divOpen>Open</divOpen>
+         <divClose>Close</divClose>
+      </buttons>
+   </note>

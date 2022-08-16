@@ -21,7 +21,7 @@
 
         <onloadCopy>
             <point1text1>
-            <![CDATA[The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options. It utilizes the newest NVIDIA A100 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.  
+            <![CDATA[The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options. It utilizes the newest NVIDIA A40 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.  
             ]]>
           </point1text1>
         </onloadCopy>
@@ -192,7 +192,7 @@
 <point3text>
       
           <headingText>
-             <![CDATA[One configuration of the ThinkSystem SR670 V2 employs the unique Lenovo Neptune™ hybrid liquid cooling technology and 8x NVMe drives.  Combined with four NVIDIA HGX-A100 GPUs with NVLink, this powerful server delivers an optimized enterprise-grade solution for deploying accelerated HPC and AI workloads in production.
+             <![CDATA[One configuration of the ThinkSystem SR670 V2 employs the unique Lenovo Neptune™ hybrid liquid cooling technology and 8x NVMe drives.  Combined with four NVIDIA HGX-A40 GPUs with NVLink, this powerful server delivers an optimized enterprise-grade solution for deploying accelerated HPC and AI workloads in production.
              ]]>
          </headingText>
          <point3text1>
@@ -209,7 +209,7 @@
              ]]>
          </point3text3>
          <point3text4>
-             <![CDATA[ 4x NVIDIA® A100 GPUs with liquid-cooled plates
+             <![CDATA[ 4x NVIDIA® A40 GPUs with liquid-cooled plates
              ]]>
          </point3text4>
          <point3text5>
@@ -228,7 +228,7 @@
           
          <point4heading>
              <![CDATA[ 
-                The SR670 V2 employs a specialized technology that transfers heat from the 4 NVIDIA HGX-A100 GPUs via a multi-chamber pump in a self-contained liquid loop. Heat is then transferred into an optimized fin-layout radiator where airflow further transfers heat from liquid to air, finally dissipating it out the back of the server.   
+                The SR670 V2 employs a specialized technology that transfers heat from the 4 NVIDIA HGX-A40 GPUs via a multi-chamber pump in a self-contained liquid loop. Heat is then transferred into an optimized fin-layout radiator where airflow further transfers heat from liquid to air, finally dissipating it out the back of the server.   
              ]]>
          </point4heading>
          <point4text1>
@@ -242,7 +242,7 @@
             ]]>
          </point4text2>
           <point4text3>
-            <![CDATA[ 4x NVIDIA® A100 GPUs with liquid-cooled plates
+            <![CDATA[ 4x NVIDIA® A40 GPUs with liquid-cooled plates
 
             ]]>
          </point4text3>
@@ -340,11 +340,11 @@
              ]]>
          </point6heading>
          <point6text1>
-            <![CDATA[ 4 NVIDIA HGX SXM A100 GPUs with NVLink and Lenovo Neptune™ hybrid liquid cooling and 8x NVMe drives
+            <![CDATA[ 4 NVIDIA HGX SXM A40 GPUs with NVLink and Lenovo Neptune™ hybrid liquid cooling and 8x NVMe drives
             ]]>
          </point6text1>
          <point6text2>
-            <![CDATA[ Up to 8 double-wide NVIDIA A100 PCIe GPUs with NVLink and 8x EDSFF NVMe drives
+            <![CDATA[ Up to 8 double-wide NVIDIA A40 PCIe GPUs with NVLink and 8x EDSFF NVMe drives
             ]]>
          </point6text2>
           <point6text3>
@@ -401,7 +401,7 @@
              ]]>
          </point7headingText>
         <point7text1>            
-            <![CDATA[ The NVIDIA A100 introduces groundbrnew features to optimize inference workloads. It brings unprecedented versatility by accelerating a full range of precisions, from FP32 to FP16 to INT8 and all the way down to INT4. Multi-Instance GPU (MIG) technology allows multiple networks to operate simultaneously on a single A100 GPU for optimal utilization of compute resources. And structural sparsity support delivers up to 2X more performance on top of A100’s other inference performance gains.
+            <![CDATA[ The NVIDIA A40 introduces groundbrnew features to optimize inference workloads. It brings unprecedented versatility by accelerating a full range of precisions, from FP32 to FP16 to INT8 and all the way down to INT4. Multi-Instance GPU (MIG) technology allows multiple networks to operate simultaneously on a single A40 GPU for optimal utilization of compute resources. And structural sparsity support delivers up to 2X more performance on top of A40’s other inference performance gains.
 
             ]]>
         </point7text1>   
@@ -578,7 +578,7 @@
             ]]>
         </point10text3>
         <point10text4>            
-            <![CDATA[Based on two 3rd Gen Intel® Xeon® Scalable processors with four NVIDIA HGX A100 GPU acceleration and NVIDIA HDR InfiniBand networking, the ThinkSystem SD650-N V2 can deliver up to 3 PFLOPs of compute performance in a single rack.
+            <![CDATA[Based on two 3rd Gen Intel® Xeon® Scalable processors with four NVIDIA HGX A40 GPU acceleration and NVIDIA HDR InfiniBand networking, the ThinkSystem SD650-N V2 can deliver up to 3 PFLOPs of compute performance in a single rack.
             ]]>
         </point10text4>
         <point10text5>            
@@ -738,7 +738,7 @@
        
         <point14text>
          <point14text1> 
-              <![CDATA[ The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options.  It utilizes the newest NVIDIA A100 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.
+              <![CDATA[ The ThinkSystem SR670 V2 is a modular 3U platform tailored to flexibly support your enterprise AI and other highly-accelerated technical computing workloads. It features a modular design for ultimate flexibility with six different front shuttle options.  It utilizes the newest NVIDIA A40 GPUs, delivering a powerful enterprise-grade solution for deploying accelerated HPC and AI workloads.
 
               ]]>
          </point14text1>
@@ -751,7 +751,7 @@
         <point15text>         
          <point15heading>
              <![CDATA[ 
-                This configuration accomodates up to four NVIDIA HGX-A100 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+                This configuration accomodates up to four NVIDIA HGX-A40 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
              ]]>
          </point15heading>         
     </point15text>
@@ -759,11 +759,11 @@
     <point16text>         
          <point16heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array of industries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink, delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array of industries and applications.    
              ]]>
          </point16heading>        
             <point16text1>
-            <![CDATA[  4x NVIDIA HGX-A100 GPUs with NVLink  under 8x 2.5” NVMe drives
+            <![CDATA[  4x NVIDIA HGX-A40 GPUs with NVLink  under 8x 2.5” NVMe drives
             ]]>
          </point16text1>
         <point16text2>
@@ -791,7 +791,7 @@
          <point17text>         
          <point17heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point17heading>       
               <point17text1>
@@ -819,7 +819,7 @@
         
          <point18heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point18heading>         
          <point18text1>
@@ -862,7 +862,7 @@
      <point19text>         
          <point19heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point19heading>         
     </point19text>
@@ -870,12 +870,12 @@
     <point20text>   
          <headingText>
              <![CDATA[ 
-                This configuration accommodates four NVIDIA double-wide PCIe A100 GPUs and up to 6 EDSFF drives, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.  
+                This configuration accommodates four NVIDIA double-wide PCIe A40 GPUs and up to 6 EDSFF drives, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.  
              ]]>
          </headingText>   
         
           <point20text1>
-            <![CDATA[ 8x NVIDIA A100 PCIe GPUs with NVLink Bridge
+            <![CDATA[ 8x NVIDIA A40 PCIe GPUs with NVLink Bridge
             ]]>
          </point20text1>
         
@@ -913,7 +913,7 @@
     <point21text>         
          <point21heading>
              <![CDATA[ 
-               This configuration accommodates up to eight NVIDIA A100 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+               This configuration accommodates up to eight NVIDIA A40 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
              ]]>
          </point21heading>         
     </point21text>
@@ -929,7 +929,7 @@
     <point23text>         
          <point23heading>
              <![CDATA[ 
-                This configuration accommodates up to eight NVIDIA A100 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
+                This configuration accommodates up to eight NVIDIA A40 PCIe double-wide GPUs with NVLink Bridge, delivering optimal performance for Artificial Intelligence (AI) and High Performance Computing (HPC) workloads across an array of industries and applications.
              ]]>
          </point23heading>  
         
@@ -954,7 +954,7 @@
          </point23text4>
         
         <point23text5>
-            <![CDATA[ 8x NVIDIA DW A100 PCIe GPUs with NVLink Bridge
+            <![CDATA[ 8x NVIDIA DW A40 PCIe GPUs with NVLink Bridge
             ]]>
          </point23text5>
     </point23text>
@@ -962,7 +962,7 @@
     <point24text>         
          <point24heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point24heading>         
         
@@ -1007,7 +1007,7 @@
        <point25text>         
          <point25heading>
              <![CDATA[ 
-                This configuration accomodates up to 4 double-wide NVIDIA A100 PCle GPUs, delivering optimal performance for AI and HPC workloads across an array of industries and applications.
+                This configuration accomodates up to 4 double-wide NVIDIA A40 PCle GPUs, delivering optimal performance for AI and HPC workloads across an array of industries and applications.
              ]]>
          </point25heading>         
     </point25text>
@@ -1015,7 +1015,7 @@
        <point26text>         
          <point26heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point26heading>  
            
@@ -1024,7 +1024,7 @@
             ]]>
          </point26text1>
         <point26text2>
-            <![CDATA[ 4x  NVIDIA double-wide A100 GPUs (shown) or 
+            <![CDATA[ 4x  NVIDIA double-wide A40 GPUs (shown) or 
                       8x NVIDIA single-wide A10 PCIe GPUs (special order only)
             ]]>
          </point26text2>
@@ -1054,7 +1054,7 @@
        <point27text>         
          <point27heading>
              <![CDATA[ 
-                This configuration accommodates up to 4 double-wide NVIDIA A100 PCIe GPUs, delivering optimal performance for AI, HPC and graphical workloads across an array of industries and applications.  
+                This configuration accommodates up to 4 double-wide NVIDIA A40 PCIe GPUs, delivering optimal performance for AI, HPC and graphical workloads across an array of industries and applications.  
 
              ]]>
          </point27heading>         
@@ -1084,7 +1084,7 @@
             ]]>
          </point29text2>
         <point29text3>
-            <![CDATA[ 4x NVIDIA DW PCIe A100 GPUs
+            <![CDATA[ 4x NVIDIA DW PCIe A40 GPUs
             ]]>
          </point29text3>
         <point29text4>
@@ -1099,7 +1099,7 @@
        <point30text>         
          <point30heading>
              <![CDATA[ 
-                This system accommodates four NVIDIA HGX A100 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
+                This system accommodates four NVIDIA HGX A40 GPUs with NVLink,delivering optimal performance for Artificial Intelligence (AI), HighPerformance Computing (HPC) and graphical workloads across an array ofindustries and applications.    
              ]]>
          </point30heading>         
     </point30text>

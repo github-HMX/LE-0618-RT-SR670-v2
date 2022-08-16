@@ -1724,6 +1724,7 @@ function menu2Click() {
    objectHide();
    hideCallouts();
    animStoped = false;
+   scene._nav._navMaxDolly = 200.0;
    $("#onloadCopy").css('display','none');
    $("#cpHeading").html("3<sup>rd</sup> Gen Intel® Xeon® Platinum Processors");
    $("#transparentPatch").css('display','none');
@@ -1778,7 +1779,7 @@ function menu3Click() {
    hideCallouts();
    animStoped = false;
    $("#onloadCopy").css('display','block');
-   $("#cpHeading").text("4x NVIDIA HGX-A100 4-GPU Configuration");
+   $("#cpHeading").text("4x NVIDIA HGX-A40 4-GPU Configuration");
    $("#transparentPatch").css("display","none");
    $("#menu3").addClass("active");
    scene.groupApplyState('4x_sxw');
@@ -1965,7 +1966,7 @@ function menu7Click() {
    objectHide();
    animStoped = false;
    //    $("#cpHeading").text("Interior – 2 Processor, 24 DIMM");
-   $("#cpHeading").html("NVIDIA&reg; A100 40GB SXM4 Graphics Processing Unit (GPU)");
+   $("#cpHeading").html("NVIDIA&reg; A40 40GB SXM4 Graphics Processing Unit (GPU)");
    $("#onloadCopy").css('display','none');
    //    $("#onloadCopy").css("opacity","0").fadeOut(400);
    //    $("#menu9,#menu10").removeClass("disabled");
@@ -2612,8 +2613,11 @@ function menu15Click() {
    hideAllObjects();
    objectHide();
    hideCallouts();
+   scene._nav._navMaxDolly = 160.0;
+      // scene._nav._panMax =  [55, 50];
+      // scene._nav._panMin =  [-55, -70];
    animStoped = false;
-   $("#cpHeading").text("NVIDIA HGX-A100 4-GPU");
+   $("#cpHeading").text("NVIDIA HGX-A40 4-GPU");
    // $("#point4text").css('display', 'block');
    $("#onloadCopy").css('display','none');
    $("#menu3").addClass("active");
@@ -2643,11 +2647,14 @@ function menu15Click() {
    timeouts.push(setTimeout(function () {
       $("#point15text").fadeIn(400);
       animComplete();
+      
+   },1000));
+   timeouts.push(setTimeout(function () {
       if (autoplayAnim) {
-
          animCompeteAuto();
       }
-   },1000));
+
+   },3300));
    menu9clicked = false;
    menu7clicked = false;
    scene.clearRefine();
@@ -2658,8 +2665,9 @@ function menu16Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 310.0;
 
-   $("#cpHeading").text("4x NVIDIA A100 GPU / 8x NVMe Drive Configuration ");
+   $("#cpHeading").text("4x NVIDIA A40 GPU / 8x NVMe Drive Configuration ");
    // $("#point4text").css('display', 'block');
    $("#onloadCopy").css('display','none');
    $("#menu3").addClass("active");
@@ -2709,11 +2717,12 @@ function menu17Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 220.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
 
-   $("#cpHeading").text("4x NVIDIA A100 GPU / 8x NVMe Drive Configuration ");
+   $("#cpHeading").text("4x NVIDIA A40 GPU / 8x NVMe Drive Configuration ");
    // $("#point4text").css('display', 'block');
    $("#onloadCopy").css('display','none');
    $("#menu3").addClass("active");
@@ -2753,11 +2762,12 @@ function menu18Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 220.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
 
-   $("#cpHeading").text("4x NVIDIA A100 GPU / 8x NVMe Drive Configuration");
+   $("#cpHeading").text("4x NVIDIA A40 GPU / 8x NVMe Drive Configuration");
    $("#onloadCopy").css('display','none');
    $("#menu3").addClass("active");
    $("#menu18").removeClass("disabled");
@@ -2837,6 +2847,7 @@ function menu20Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 310.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
@@ -2891,6 +2902,7 @@ function menu34Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 330.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
@@ -2948,8 +2960,9 @@ function menu21Click() {
    objectHide();
    hideCallouts();
    animStoped = false;
-   //    scene._nav._panMax = [50, 17];
-   //    scene._nav._panMin = [-42, -7];
+   scene._nav._navMaxDolly = 300.0;
+      scene._nav._panMax = [50, 17];
+      scene._nav._panMin = [-42, -17];
    //    scene._nav._navMinDolly = -100.0;
    $("#cpHeading").text("8x NVIDIA DW PCIe A40 GPUs");
    // $("#point4text").css('display', 'block');
@@ -2962,6 +2975,7 @@ function menu21Click() {
    scene.groupApplyState('8x_dw');
    scene.groupApplyState('back_old_off');
    scene.groupApplyState('back_new_on');
+   scene.groupApplyState('top_open');
    scene.gotoPosInTime(0.0012969476925042,1.0079644737231006,-13,-14,260.882172,1000,function () {
       scene.groupApplyState('top_open');
    });
@@ -3035,10 +3049,11 @@ function menu23Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 220.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
-   $("#cpHeading").text("8x NVIDIA PCIe A100 GPU Configuration");
+   $("#cpHeading").text("8x NVIDIA PCIe A40 GPU Configuration");
    // $("#point4text").css('display', 'block');
    $("#onloadCopy").css('display','none');
    $("#menu19").addClass("active");
@@ -3081,11 +3096,12 @@ function menu24Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 220.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
 
-   $("#cpHeading").text("8x NVIDIA PCIe A100 GPU Configuration");
+   $("#cpHeading").text("8x NVIDIA PCIe A40 GPU Configuration");
    $("#onloadCopy").css('display','none');
    $("#menu19").addClass("active");
    $("#menu24").removeClass("disabled");
@@ -3135,7 +3151,7 @@ function menu25Click() {
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
    // $("#cpHeading").text("8x NVIDIA SW GPU  / 4x DW PCIe GPU Configuration");
-   $("#cpHeading").text("4x NVIDIA DW A100 PCle GPU / 8x 2.5-inch NVMe Drive Configuration");
+   $("#cpHeading").text("4x NVIDIA DW A40 PCle GPU / 8x 2.5-inch NVMe Drive Configuration");
    $("#onloadCopy").css('display','none');
    $("#menu25").addClass("active");
    $(".greyOutBox").removeClass('redOutBox');
@@ -3171,10 +3187,11 @@ function menu26Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 300.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
-   $("#cpHeading").text("4x NVIDIA DW A100 PCIe GPU / 8x 2.5-inch NVMe Drive Configuration");
+   $("#cpHeading").text("4x NVIDIA DW A40 PCIe GPU / 8x 2.5-inch NVMe Drive Configuration");
    // $("#point4text").css('display', 'block');
    $("#onloadCopy").css('display','none');
    //    scene.instanceSet("SR850_V02_WITH_INTERNAL", "visible", true);
@@ -3240,10 +3257,11 @@ function menu27Click() {
    objectHide();
    hideCallouts();
    animStoped = false;
+   scene._nav._navMaxDolly = 280.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
-   $("#cpHeading").text("4x NVIDIA DW A100 PCIe GPU / 8x 2.5-inch NVMe Drive Configuration");
+   $("#cpHeading").text("4x NVIDIA DW A40 PCIe GPU / 8x 2.5-inch NVMe Drive Configuration");
    $("#onloadCopy").css('display','none');
    $("#menu25").addClass("active")
    $("#menu27").removeClass("disabled");
@@ -3318,6 +3336,7 @@ function menu29Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 220.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
@@ -3377,6 +3396,7 @@ function menu30Click() {
    hideAllObjects();
    objectHide();
    animStoped = false;
+   scene._nav._navMaxDolly = 230.0;
    //    scene._nav._panMax = [50, 17];
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
@@ -3425,7 +3445,7 @@ function menu31Click() {
    hideCallouts();
    animStoped = false;
    $("#onloadCopy").css('display','block');
-   $("#cpHeading").text("4x NVIDIA HGX-A100 4-GPU Configuration");
+   $("#cpHeading").text("4x NVIDIA HGX-A40 4-GPU Configuration");
    $("#transparentPatch").css("display","none");
    $("#menu3").addClass("active");
    scene.groupApplyState('4x_sxw');
@@ -3508,7 +3528,7 @@ function menu33Click() {
    //    scene._nav._panMin = [-42, -7];
    //    scene._nav._navMinDolly = -100.0;
    // $("#cpHeading").text("8x NVIDIA SW GPU  / 4x DW PCIe GPU Configuration");
-   $("#cpHeading").text("4x NVIDIA DW A100 PCle GPU / 8x 2.5-inch NVMe Drive Configuration");
+   $("#cpHeading").text("4x NVIDIA DW A40 PCle GPU / 8x 2.5-inch NVMe Drive Configuration");
    $("#onloadCopy").css('display','none');
    $("#menu25").addClass("active");
    $(".greyOutBox").removeClass('redOutBox');
@@ -3583,22 +3603,63 @@ function autoPlayAllAnimations() {
          currneAnim = 6;
          AutoPlayMenus(currneAnim);
       } else if (currneAnim == 6) {
-         currneAnim = 31;
-         AutoPlayMenus(currneAnim);
-      } else if (currneAnim == 33) {
-         currneAnim = 35;
-         AutoPlayMenus(currneAnim);
-      } else if (currneAnim == 35) {
          currneAnim = 3;
          AutoPlayMenus(currneAnim);
       } else if (currneAnim == 3) {
          currneAnim = 4;
          AutoPlayMenus(currneAnim);
-      }
+      } 
       else if (currneAnim == 4) {
          currneAnim = 15;
          AutoPlayMenus(currneAnim);
-      } else if (currneAnim == 30) {
+      } else if (currneAnim == 15) {
+         currneAnim = 16;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 16) {
+         currneAnim = 17;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 17) {
+         currneAnim = 18;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 18) {
+         currneAnim = 19;
+         AutoPlayMenus(currneAnim);
+      }
+      else if (currneAnim == 19) {
+         currneAnim = 20;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 20) {
+         currneAnim = 21;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 21) {
+         currneAnim = 22;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 22) {
+         currneAnim = 23;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 23) {
+         currneAnim = 24;
+         AutoPlayMenus(currneAnim);
+      }  else if (currneAnim == 24) {
+         currneAnim = 25;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 25) {
+         currneAnim = 26;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 26) {
+         currneAnim = 27;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 27) {
+         currneAnim = 28;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 28) {
+         currneAnim = 29;
+         AutoPlayMenus(currneAnim);
+      } else if (currneAnim == 29) {
+         currneAnim = 30;
+         AutoPlayMenus(currneAnim);
+      }
+       else if (currneAnim == 30) {
          currneAnim = 34;
          AutoPlayMenus(currneAnim);
       } else if (currneAnim == 34) {
@@ -3694,7 +3755,7 @@ function AutoPlayMenus(currneAnim) {
    reversAll();
    prevAnimation = currneAnim;
    $("h3#menu" + currneAnim).css("background-color","#eb140a").css("opacity","1");
-   for (var j = 1; j <= 27; j++) {
+   for (var j = 1; j <= 36; j++) {
       translateOut(j);
    }
    //     $( "#accordion" ).accordion( "option", "disabled", true );
@@ -5022,7 +5083,11 @@ function mouseDown(ev) {
    for (var i = 0; i < timeouts.length; i++) {
       clearTimeout(timeouts[i]);
    }
+   // CalloutsHide();
+   hideAll();
+   objectHide()
    CalloutsHide();
+   hideCallouts();
    autoRotateStop();
    clearTimeout(autoPlayInt)
    clearInterval(autoRotateInterval);
@@ -5104,6 +5169,7 @@ function mouseWheel(ev) {
    //	}
 
    hideAll();
+   objectHide()
    CalloutsHide();
    hideCallouts();
    if (autoplayAnim) autoPauseAllAnimations();

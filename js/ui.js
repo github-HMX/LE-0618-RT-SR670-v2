@@ -108,11 +108,11 @@ function showScene() {
 	$("#scenediv").css("visibility","visible");                
     $('#transPatch').css('display','none');
     $("#loaderlogo").fadeIn(500);
-    startAutorot = setTimeout(function(){
-            autoRotateCall();
-        // $("#point3text").css("display", "none"); 
-        console.log("autoRotateCall");
-    }, 20000);
+    // startAutorot = setTimeout(function(){
+    //         autoRotateCall();
+    //     // $("#point3text").css("display", "none"); 
+    //     console.log("autoRotateCall");
+    // }, 20000);
 
         scene.clearRefine();  
        currneAnim = 14;	

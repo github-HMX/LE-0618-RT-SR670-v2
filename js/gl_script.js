@@ -1669,9 +1669,9 @@ function objectHide() {
    $("#point27text").css('display','none');
    $("#point28text").css('display','none');
    $("#point15text").css('display','none');
-   scene.groupApplyState('SXM_NVLink_GPU_Card_ON');
-   scene.groupApplyState('8x_DW_PCle_GPU_Card_ON');
-   scene.groupApplyState('4x_DW_PCle_GPU_Card_ON');
+   /* scene.groupApplyState('SXM_NVLink_GPU_Card_OFF');
+   scene.groupApplyState('8x_DW_PCle_GPU_Card_OFF');
+   scene.groupApplyState('4x_DW_PCle_GPU_Card_OFF'); */
    CalloutsHide();
    //    $("#transPatchDiv").css('display','none');
    setTimeout(function () {
@@ -1917,11 +1917,11 @@ function menu5Click() {
 function menu6Click() {
    console.log("menu6Clicked");
    objectHide();
-   
+
    hideAllObjects();
    hideCallouts();
    animStoped = false;
-   
+
    //    scene._nav._panMax =  [38, 17];
    //    scene._nav._panMin =  [-42, -7];
    $("#onloadCopy").css('display','none');
@@ -2259,7 +2259,7 @@ function menu11Click() {
    $("#dummy-canvas").css("pointer-events","none");
    $("#rightAnim").css("display","none");
    $("#point11text").css('display','block');
-  
+
    scene.instanceSet("External_Hotspot","visible",false);
    scene.instanceSet("Internal_Hotspot","visible",false);
    scene.groupApplyState('back_new_off');
@@ -2584,7 +2584,7 @@ function menu14Click() {
    menu14clicked = true;
    $("#point13img1, #point13img2, #point13img3, #point13img4").css('display','none');
    $("#cpHeading").text("From Exascale to Everyscale™");
-   
+
    scene.groupApplyState('4x_sxw');
    scene.groupApplyState('back_new_off');
    scene.gotoPosInTime(-0.199846,0.045921,-4.80196,5.55286,210.003,2000,function () {
@@ -2614,8 +2614,8 @@ function menu15Click() {
    objectHide();
    hideCallouts();
    scene._nav._navMaxDolly = 160.0;
-      // scene._nav._panMax =  [55, 50];
-      // scene._nav._panMin =  [-55, -70];
+   // scene._nav._panMax =  [55, 50];
+   // scene._nav._panMin =  [-55, -70];
    animStoped = false;
    $("#cpHeading").text("NVIDIA HGX-A40 4-GPU");
    // $("#point4text").css('display', 'block');
@@ -2647,7 +2647,7 @@ function menu15Click() {
    timeouts.push(setTimeout(function () {
       $("#point15text").fadeIn(400);
       animComplete();
-      
+
    },1000));
    timeouts.push(setTimeout(function () {
       if (autoplayAnim) {
@@ -2676,7 +2676,7 @@ function menu16Click() {
    $(".greyOutBox").removeClass('redOutBox');
    $("#menu16 .greyOutBox").addClass('redOutBox');
    scene.groupApplyState('4x_sxw');
-  
+
    scene.groupApplyState('4x_sxw_internal');
    scene.groupApplyState('top_open');
    scene.groupApplyState('SXM_NVLink_GPU_Card_OFF');
@@ -2864,6 +2864,7 @@ function menu20Click() {
    scene.groupApplyState('8x_DW_PCle_GPU_Card_OFF');
    scene.groupApplyState('back_old_off');
    scene.groupApplyState('back_new_on');
+
    scene.gotoPosInTime(0.9180255406588592,0.7762426616933429,-19,6,300.882172,1000,function () {
       scene.groupApplyState('top_open');
       $("#point16text").css('display','none');
@@ -2961,8 +2962,8 @@ function menu21Click() {
    hideCallouts();
    animStoped = false;
    scene._nav._navMaxDolly = 300.0;
-      scene._nav._panMax = [50, 17];
-      scene._nav._panMin = [-42, -17];
+   scene._nav._panMax = [50,17];
+   scene._nav._panMin = [-42,-17];
    //    scene._nav._navMinDolly = -100.0;
    $("#cpHeading").text("8x NVIDIA DW PCIe A40 GPUs");
    // $("#point4text").css('display', 'block');
@@ -3608,7 +3609,7 @@ function autoPlayAllAnimations() {
       } else if (currneAnim == 3) {
          currneAnim = 4;
          AutoPlayMenus(currneAnim);
-      } 
+      }
       else if (currneAnim == 4) {
          currneAnim = 15;
          AutoPlayMenus(currneAnim);
@@ -3640,7 +3641,7 @@ function autoPlayAllAnimations() {
       } else if (currneAnim == 23) {
          currneAnim = 24;
          AutoPlayMenus(currneAnim);
-      }  else if (currneAnim == 24) {
+      } else if (currneAnim == 24) {
          currneAnim = 25;
          AutoPlayMenus(currneAnim);
       } else if (currneAnim == 25) {
@@ -3659,7 +3660,7 @@ function autoPlayAllAnimations() {
          currneAnim = 30;
          AutoPlayMenus(currneAnim);
       }
-       else if (currneAnim == 30) {
+      else if (currneAnim == 30) {
          currneAnim = 34;
          AutoPlayMenus(currneAnim);
       } else if (currneAnim == 34) {

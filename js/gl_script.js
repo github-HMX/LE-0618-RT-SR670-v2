@@ -948,7 +948,10 @@ function menuFading() {
    })
 }
 
+   
+  
 function onSuperBlazeReady() {
+	 
    scene._jitRadius = 3;
    scene._zNearMin = 5.0;
    if (mob) scene._bDoF = false;
@@ -2920,7 +2923,7 @@ function menu34Click() {
    scene.groupApplyState('8x_DW_PCle_GPU_Card_OFF');
    scene.groupApplyState('back_old_off');
    scene.groupApplyState('back_new_on');
-   scene.gotoPosInTime(0.9180255406588592,0.7762426616933429,-19,6,300.882172,1000,function () {
+   scene.gotoPosInTime(0.9180255406588592,0.7762426616933429,-12,6,300.882172,1000,function () {
       scene.groupApplyState('top_open');
       $("#point16text").css('display','none');
       $("#point17text").css('display','none');

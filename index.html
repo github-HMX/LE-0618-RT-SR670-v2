@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>ThinkSystem SR670 V2</title>
@@ -12,9 +12,9 @@
 	<script type="text/javascript" src="RT_Navigation_Extension.js"></script>
 	<script type="text/javascript" src="RT_Analytics.js"></script>
 	<script type="text/javascript" src="js/ui.js"></script>
-	 <script type="text/javascript" src="model_gl/SSE.js"></script> 
-<!--	<script type="text/javascript" src="../../js/SSE.js"></script>-->
 	<script type="text/javascript" src="../../js/webglutils.js"></script>
+	 <script type="text/javascript" src="model_gl/SSE.js"></script> 
+	
 	<script type="text/javascript" src="model_gl/ctm.js"></script>
 	<script type="text/javascript" src="model_gl/lzma.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
@@ -60,7 +60,6 @@
 		})();
 	</script>
 	<link type="text/css" href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
-	<!--<link type="text/css" href="css/jquery-ui-1.8.24.custom.css" rel="stylesheet" />-->
 	<link href="css/sb.css" rel="stylesheet" type="text/css">
 	<link href="css/liteaccordion.css" rel="stylesheet" type="text/css">
 	<style>
@@ -105,9 +104,7 @@
 		.menuitemsBase {
 			width: 190px;
 			height: 39px;
-			/*background-color: black;*/
 			color: white;
-			/*opacity: 0.7; */
 			border-top: 0px solid #c0c0c0;
 			font-size: 14px;
 			cursor: pointer;
@@ -141,9 +138,7 @@
 		}
 
 		.menuText {
-			/*	margin-left: 10px;
-			margin-top: 10px;
-			position: absolute;  */
+		
 		}
 
 		#panel {
@@ -156,7 +151,7 @@
 <body>
 	<div id="superblaze" style="z-index:2;position:absolute">
 		<div id="loader">
-			<image src="./images_gl/loaderblock.jpg" />
+			<image src="./images_gl/loaderblock.png" />
 		</div>
 		<div id="loader1">
 			<image width=1286; height=723; src="./images_gl/loader_011.png" />
@@ -168,11 +163,7 @@
 		</div>
 		<div id="transPatch2"
 			style="width:1286px;height:723px;position:absolute;z-index:3030;background-color: #ffffff; opacity:0;">
-			<!--
-                    <div id="loaderDfr">
-                        <image src="images_gl/loader.gif" width="70" height="70"/>
-                    </div> 
--->
+		
 		</div>
 		<div id="transPatch5" style="width:1286px;height:723px;position:absolute;z-index:0;"></div>
 		<div id="transPatchDiv" style="width:1286px;height:723px;position:absolute;z-index:1;"></div>
@@ -181,15 +172,12 @@
 		</div>
 		<div id="onloadCopy" style="text-align:left;line-height:20px;">
 			<p class="point1text1"></p>
-			<!--			   <p id="point1image2" class="bodyText"><img width="90px" src="images_gl/intel.png"></p>-->
 		</div>
 		<div class="noselect productName">
 			<img style="width:158px;height:44px;position: absolute;top:19px;left: 34px;"
 				src="images_gl/ThinkSystem_Logo.svg" /><span>SR670 V2</span>
 		</div>
-		<!--  <div id="topheading" class="transbox noselect headingtext">
-				<p></p>
-				</div>-->
+		
 		<div id="scenediv">
 			<div id="firstSlideWrapper"></div>
 			<div id="accordion"
@@ -286,61 +274,14 @@
 						</div>
 					</div>
 				</div>
-				<!--
-			  
--->
-				<!--
-			   <h3 id="menu6" class="menuitems"><span class="menuText">Direct Water Cooling </span></h3>
-			   <div>
-                   <div id="rightSideController">
-                        <div id="menu5" class="menuitems animPlayBtns1" style="display: none;"> 
-                            <div class="greyOutBox redOutBox"></div>
-                            <span>Component View</span>
-                        </div>
-                    </div>
-               </div>
-				<h3 id="menu7" class="menuitems"><span class="menuText">GPUs</span></h3>
-			   <div>
-                
-                </div>
-				<h3 id="menu10" class="menuitems"><span class="menuText">Enclosure</span></h3>
-			   <div>
-                     <div id="rightSideController">
-                        <div id="menu9" class="menuitems animPlayBtns1" style="display: none;"> 
-                            <div class="greyOutBox redOutBox"></div>
-                            <span>Front View</span>
-                        </div>
-                    </div>
-                   <div id="rightSideController">
-                        <div id="menu8" class="menuitems animPlayBtns1" style="display: none;"> 
-                            <div class="greyOutBox redOutBox"></div>
-                            <span>Rear View</span>
-                        </div>
-                    </div>
-                   <div id="rightSideController">
-                        <div id="menu12" class="menuitems animPlayBtns1" style="display: none;"> 
-                            <div class="greyOutBox redOutBox"></div>
-                            <span>Water Manifolds</span>
-                        </div>
-                    </div>
-                
-                
-                </div>
--->
-                <h3 id="menu34" class="menuitems"><span class="menuText">EveryScale OVX Solution</span></h3>
+			
+		<h3 id="menu34" class="menuitems"><span class="menuText">EveryScale OVX Solution</span></h3>
                 <div></div>
 				<h3 id="menu2" class="menuitems"><span class="menuText">Processors</span></h3>
 				<div></div>
 				<h3 id="menu13" class="menuitems"><span class="menuText">LiCO Management</span></h3>
 				<div></div>
-				<!--
-                <h3 id="menu12" class="menuitems"><span class="menuText">Memory</span></h3>
-			   <div></div>
-                <h3 id="menu9" class="menuitems"><span class="menuText">Expansion Tray</span></h3>
-			   <div></div>
-                <h3 id="menu10" class="menuitems"><span class="menuText">Management</span></h3>
-			   <div></div>
--->
+				
 				<h3 id="menu11" class="menuitems"><span class="menuText">Services</span></h3>
 				<div></div>
 			</div>
@@ -362,14 +303,7 @@
 				<img style="width:40px;height:120px;" src="">
 			</div>
 			<div id="pointtext1" class="transbox noselect pointcontent2" style="display: none;">
-				<!--
-					<div id="overviewImg_01"><img style="width:300px;height:206px;" src="" /></div>
-					<div id="overviewImg_02"><img style="width:350px;height:190px;" src="" /></div>
-					<div id="overviewImg_03"><img style="width:105px;height:223px;" src="" /></div>
-					<div id="overviewImg_04"><img style="width:360px;height:69px;" src="" /></div>
-					<div id="overviewImg_05"><img style="width:420px;height:185px;" src="" /></div>
--->
-				<!--                    <div id="overviewImg_06"><img style="width:120px;height:520px;" src="images_gl/Overview/02.svg" /></div>-->
+				
 				<div id="Cp_text_01"></div>
 				<div id="Cp_text_02"></div>
 				<ul id="list_X" class="Cp_textul" style="opacity: 1;padding:6px">
@@ -391,123 +325,21 @@
 				<div id="Cp_text_11" class="cpNodetext"></div>
 				<div id="Cp_text_12" class="cpNodetext"></div>
 			</div>
-			<!--<div id="point2text" class="transbox noselect" style="display:none;">                 -->
+			
 			<div id="point3text" class="" style="display: none;">
-				<!--    <p class="point3textHeading"></p>-->
+				
 				<p class="point3headingText"></p>
-				<!--
-    <div id="hotspot1" class="cur" style="display: block;">
-        <p id="hot1"></p>
-        <img id="hotspot1plus" class="plus" src="">&nbsp;
-    </div>
-    
-    <div id="hotspot2" class="cur" style="display: block;">
-        <p id="hot2"></p>
-        <img id="hotspot2plus" class="plus" src="">&nbsp;
-    </div>
-    <div id="hotspot10" class="cur" style="display: block;">
-        <p id="hot10"></p>
-        <img id="hotspot10plus" class="plus" src="">&nbsp;
-      </div>
-    <div id="hotspot11" class="cur" style="display: block;">
-        <p id="hot11"></p>
-        <img id="hotspot11plus" class="plus" src="">&nbsp;
-     </div>
--->
+				
 			</div>
 			<div id="point4text" class="" style="display: none;">
 				<p class="point4headingText"
 					style="position: absolute;left: 355px;top: 81px;font-size:16px;width: 780px;text-align: center;">
 				</p>
-				<!--	<p class="point4text1 bodyText"></p>-->
-				<!--
-    	<div id="hotspot3" class="cur" style="display: block;">
-        <p id="hot3"></p>
-        <img id="hotspot3plus" class="plus" src="">&nbsp;
-    </div>
- 
-    <div id="hotspot4" class="cur" style="display: block;">
-        <p id="hot4"></p>
-        <img id="hotspot4plus" class="plus" src="">&nbsp;
-    </div>
-   
-    <div id="hotspot5" class="cur" style="display: block;">
-        <p id="hot5"></p>
-        <img id="hotspot5plus" class="plus" src="">&nbsp;
-    </div>
-        
-    <div id="hotspot6" class="cur" style="display: block;">
-        <p id="hot6"></p>
-        <img id="hotspot6plus" class="plus" src="">&nbsp;
-    </div>
-	
-	
-    <div id="hotspot7" class="cur" style="display: block;">
-        <p id="hot7"></p>
-        <img id="hotspot7plus" class="plus" src="">&nbsp;
-     </div>
-	    <div id="hotspot8" class="cur" style="display: block;">
-        <p id="hot8"></p>
-        <img id="hotspot8plus" class="plus" src="">&nbsp;
-     </div>
-	 <div id="hotspot9" class="cur" style="display: block;">
-        <p id="hot9"></p>
-        <img id="hotspot9plus" class="plus" src="">&nbsp;
-      </div>
--->
+			
+			
 			</div>
 			<div id="point5text" class="transbox noselect">
-				<!--   <p class="point5headingText" style="left: 428px;position: absolute;width: 600px;top: 83px; z-index:1002;font-size:16px;text-align:center;opacity:1!important;"></p>-->
-				<!--
-				<div id="hotspot40" class="cur" style="display: block;">
-					<p id="hot40"></p>
-					<img id="hotspot40plus" class="plus" src="">&nbsp;</div>
-				<div id="hotspot41" class="cur" style="display: block;">
-					<p id="hot41"></p>
-					<img id="hotspot41plus" class="plus" src="">&nbsp;</div>
-				<div id="hotspot42" class="cur" style="display: block;">
-					<p id="hot42"></p>
-					<img id="hotspot42plus" class="plus" src="">&nbsp;</div>
-				<div id="hotspot43" class="cur" style="display: block;">
-					<p id="hot43"></p>
-					<img id="hotspot43plus" class="plus" src="">&nbsp;</div>
-				<div id="hotspot44" class="cur" style="display: block;">
-					<p id="hot44"></p>
-					<img id="hotspot44plus" class="plus" src="">&nbsp;</div>
--->
-				<!--
-    <div id="hotspot45" class="cur" style="display: block;">
-        <p id="hot45"></p>
-        <img id="hotspot45plus" class="plus" src="">&nbsp;
-     </div>
-    
-    <div id="hotspot46" class="cur" style="display: block;">
-        <p id="hot46"></p>
-        <img id="hotspot46plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot47" class="cur" style="display: block;">
-        <p id="hot47"></p>
-        <img id="hotspot47plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot48" class="cur" style="display: block;">
-        <p id="
-"></p>
-"></p>
-        <img id="hotspot48plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot49" class="cur" style="display: block;">
-        <p id="hot49"></p>
-        <img id="hotspot49plus" class="plus" src="">&nbsp;
-     </div>
-     <div id="hotspot51" class="cur" style="display: block;">
-        <p id="hot51"></p>
-        <img id="hotspot51plus" class="plus" src="">&nbsp;
-     </div>
-     <div id="hotspot52" class="cur" style="display: block;">
-        <p id="hot52"></p>
-        <img id="hotspot52plus" class="plus" src="">&nbsp;
-     </div>
--->
+				
 			</div>
             
             <div id="point34text" style="display: none; top: 40px; left: 30px;">
@@ -517,41 +349,35 @@
                 <div id="hotspot019" class="cur" style="display: block;">
 					<p id="hot019"></p>
 					<div id="HotSpotBorder019"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot020" class="cur" style="display: block;">
 					<p id="hot020"></p>
 					<div id="HotSpotBorder020"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+				
 				</div>
 				<div id="hotspot021" class="cur" style="display: block;">
 					<p id="hot021"></p>
 					<div id="HotSpotBorder021"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot022" class="cur" style="display: block;">
 					<p id="hot022"></p>
 					<div id="HotSpotBorder022"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot023" class="cur" style="display: block;">
 					<p id="hot023"></p>
 					<div id="HotSpotBorder023"></div>
                     <div id="HotSpotBorder0230"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot024" class="cur" style="display: block;">
 					<p id="hot024"></p>
 					<div id="HotSpotBorder024"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
-<!--
-				<div id="hotspot025" class="cur" style="display: block;">
-					<p id="hot025"></p>
-					<div id="HotSpotBorder025"></div>
-					        <img id="hotspot17plus" class="plus" src="">&nbsp;
-				</div>
--->
+
             </div>
 			<div id="point6text" style="display: none; top: 40px; left: 30px;">
 				<p class="point6headingText"
@@ -569,138 +395,21 @@
 				<img src="" class="point6text2Img menuitems" id="menu32" />
 				<img src="" class="point6text3Img menuitems" id="menu31" />
                 <img src="" class="point6text4Img menuitems" id="menu35" />
-				<!--
-
-     <div id="hotspot12" class="cur" style="display: block;">
-        <p id="hot12"></p>
-        <img id="hotspot12plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot13" class="cur" style="display: block;">
-        <p id="hot13"></p>
-        <img id="hotspot13plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot14" class="cur" style="display: block;">
-        <p id="hot14"></p>
-        <img id="hotspot14plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot15" class="cur" style="display: block;">
-        <p id="hot15"></p>
-        <img id="hotspot15plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot16" class="cur" style="display: block;">
-        <p id="hot16"></p>
-        <img id="hotspot16plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot17" class="cur" style="display: block;">
-        <p id="hot17"></p>
-        <img id="hotspot17plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot18" class="cur" style="display: block;">
-        <p id="hot18"></p>
-        <img id="hotspot18plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot19" class="cur" style="display: block;">
-        <p id="hot19"></p>
-        <img id="hotspot19plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot20" class="cur" style="display: block;">
-        <p id="hot20"></p>
-        <img id="hotspot20plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot21" class="cur" style="display: block;">
-        <p id="hot21"></p>
-        <img id="hotspot21plus" class="plus" src="">&nbsp;
-     </div>
--->
+		
 			</div>
 			<div id="point7Div" style="display:none;">
 				<p class="point7text1"></p>
 			</div>
 			<div id="point7text" class="transbox noselect" style="">
-				<!--    <p class="point7headingText" style="position:absolute;left: 527px;top:90px;width: 450px;font-size: 29px;"></p>-->
+				
 				<p class="point7text1 bodyText"></p>
 				<img src="" class="Point7Img" />
-				<!--   <div id="hotspot23" class="cur" style="display: block;">
-        <p id="hot23"></p>
-        <img id="hotspot23plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot24" class="cur" style="display: block;">
-        <p id="hot24"></p>
-        <img id="hotspot24plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot25" class="cur" style="display: block;">
-        <p id="hot25"></p>
-        <img id="hotspot25plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot26" class="cur" style="display: block;">
-        <p id="hot26"></p>
-        <img id="hotspot26plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot27" class="cur" style="display: block;">
-        <p id="hot27"></p>
-        <img id="hotspot27plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot28" class="cur" style="display: block;">
-        <p id="hot28"></p>
-        <img id="hotspot28plus" class="plus" src="">&nbsp;
-        <img id="hotspot28plus1" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot29" class="cur" style="display: block;">
-        <p id="hot29"></p>
-        <img id="hotspot29plus" class="plus" src="">&nbsp;
-     </div>
-
-    
-    
-	
-	
-	    
-    <div id="hotspot22" class="cur" style="display: block;">
-        <p id="hot22"></p>
-        <img id="hotspot22plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot36" class="cur" style="display: block;">
-        <p id="hot36"></p>
-        <img id="hotspot36plus" class="plus" src="">&nbsp;
-     </div>
-    
-    <p id="point7image1" class="bodyText"><img width="90px" src=""></p>
-    
-    <div id="hotspot50" class="cur" style="display: block;">
-        <p id="hot50"></p>
-        <img id="hotspot50plus" class="plus" src="">&nbsp;
-     </div>
-       -->
+			
 			</div>
 			<div id="point8text" style="display:none;">
-				<!--    <p class="point8headingText" style="position:absolute;left: 519px;top:81px;width: 450px;font-size: 29px;"></p>-->
+				
 				<p class="point8text1"></p>
-				<!--
-     <div id="hotspot30" class="cur" style="display: block;">
-        <p id="hot30"></p>
-        <img id="hotspot30plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot31" class="cur" style="display: block;">
-        <p id="hot31"></p>
-        <img id="hotspot31plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot32" class="cur" style="display: block;">
-        <p id="hot32"></p>
-        <img id="hotspot32plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot33" class="cur" style="display: block;">
-        <p id="hot33"></p>
-        <img id="hotspot33plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot34" class="cur" style="display: block;">
-        <p id="hot34"></p>
-        <img id="hotspot34plus" class="plus" src="">&nbsp;
-     </div>
-    <div id="hotspot35" class="cur" style="display: block;">
-        <p id="hot35"></p>
-        <img id="hotspot35plus" class="plus" src="">&nbsp;
-     </div>
--->
+		
 				<p id="point8image1" class="bodyText">
 					<img width="90px" src="">
 				</p>
@@ -753,37 +462,15 @@
 				<p class="point10text2 bodyText"></p>
 				<p class="point10text3 bodyText"></p>
 				<p class="point10text4 bodyText"></p>
-				<!--         <p class="point10text5 bodyText"></p>
-         <p class="point10text6 bodyText"></p>-->
-				<!--
-         <ul class="point10text7 bodyText">
-             <li class="thirteen"></li>
-             <li class="fourteen"></li>
-             <li class="fifteen"></li>
-             <li class="sixteen"></li>
-             <li class="seventeen"></li>
-         </ul>
--->
-				<!--
-        <p id="point10image1" class="bodyText"><img src="" style="width:490px;"></p>
-
-        <div class="pont10Img">
-              <div id="pont10Img1" class="grid" style="display:none;">
-                <img src="" style="width:480px;">
-              </div>
-              <div id="pont10Img2" class="grid" style="display:none;">
-                 <img src=""  style="position: absolute;left: 2px;top: 0px;width: 480px"> 
-              </div>
-
-        </div>
--->
+				
+			
 			</div>
 			<div id="point11text" class="noselect pointcontent" style="display:none;">
 				<div id="point11text2" class="point11click" style="display:none;"></div>
 				<div id="point11text3" class="point11click" style="display:none;"></div>
 				<div id="point11text4" class="point11click" style="display:none;"></div>
 				<div id="point11text7" class="point11click" style="display:none;"></div>
-				<!--            slide1-->
+				
 				<div id="point11text1" style="display:none;"></div>
 				<div id="point11image1" class="bodyText">
 					<img src="" style="display:none;">
@@ -800,7 +487,7 @@
 				<div id="point11image1_4" class="bodyText">
 					<img src="" style="display:none;width:250px;height:529px;">
 				</div>
-				<!--            slide2-->
+				
 				<div id="point11text5" style="display:none;"></div>
 				<div id="point11text6" style="display:none;">
 					<ul id="point11li1">
@@ -810,13 +497,11 @@
                         <li></li>
 					</ul>
 				</div>
-				<!--            <div id="point11text7" style="display:none;"></div>-->
-				<!--            <div id="point11text8" style="display:none;"></div>-->
+				
 				<div id="point11image2" class="bodyText">
 					<img src="" style="display:none;">
 				</div>
-				<!--            slide3-->
-				<!--            <div id="point11text9" style="display:none;"></div>-->
+				
 				<div id="point11text10" style="display:none;"></div>
 				<div id="point11text11" style="display:none;">
 					<ul id="point11li2">
@@ -826,13 +511,11 @@
 						<li></li>
 					</ul>
 				</div>
-				<!--            <div id="point11text12" style="display:none;"></div>-->
+				
 				<div id="point11image3" class="bodyText">
 					<img src="" style="display:none;">
 				</div>
-				<!--            slide4-->
-				<!--            <div id="point11text13" style="display:none;"></div>-->
-				<!--            <div id="point11text14" style="display:none;"></div>-->
+				
 				<div id="point11text15" style="display:none;">
 					<ul id="point11li3">
 						<li></li>
@@ -845,7 +528,7 @@
 				<div id="point11image4" class="bodyText">
 					<img src="" style="display:none;">
 				</div>
-				<!--            slide5-->
+				
 				<div id="point11image5" class="bodyText">
 					<img src="" style="display:none;">
 				</div>
@@ -858,7 +541,7 @@
 			</div>
 			<div id="point12text" style="display:none;">
 				<p class="point12text1"></p>
-				<!--        <p class="point12text2"></p>-->
+				
 			</div>
 			<div id="point13text" style="display:none;">
 				<p class="point13text1"></p>
@@ -867,12 +550,6 @@
 				<img src="" class="point13text2" />
 				<img src="" class="point13text3" />
 
-				<!--<div id="point13img2"><img src="" /></div>
-				<div id="point13img3"><img src=""  /></div>
-				<div id="point13img4"><img src=""  /></div>
-				<div id="point13img5"><img src=""  /></div>
-				<div class="Border13Text"></div>-->
-				<!--        <p class="point12text2"></p>-->
 			</div>
 			<div id="point14text" style="display:none;">
 				<p class="point14text1"></p>
@@ -894,33 +571,33 @@
 				<div id="hotspot1" class="cur" style="display: block;">
 					<p id="hot1"></p>
 					<div id="HotSpotBorder01"></div>
-					<!--        <img id="hotspot1plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot2" class="cur" style="display: block;">
 					<p id="hot2"></p>
 					<div id="HotSpotBorder02"></div>
 					<div id="HotSpotBorder02_1"></div>
-					<!--        <img id="hotspot2plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot3" class="cur" style="display: block;">
 					<p id="hot3"></p>
 					<div id="HotSpotBorder03"></div>
-					<!--        <img id="hotspot3plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot4" class="cur" style="display: block;">
 					<p id="hot4"></p>
 					<div id="HotSpotBorder04"></div>
-					<!--        <img id="hotspot4plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot5" class="cur" style="display: block;">
 					<p id="hot5"></p>
 					<div id="HotSpotBorder05"></div>
-					<!--        <img id="hotspot5plus" class="plus" src="">&nbsp;-->
+					
 				</div>
                 <div id="hotspot533" class="cur" style="display: block;">
 					<p id="hot533"></p>
 					<div id="HotSpotBorder533"></div>
-					<!--        <img id="hotspot5plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point17text" class="" style="display: none;">
@@ -930,28 +607,28 @@
 				<div id="hotspot6" class="cur" style="display: block;">
 					<p id="hot6"></p>
 					<div id="HotSpotBorder06"></div>
-					<!--        <img id="hotspot6plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot7" class="cur" style="display: block;">
 					<p id="hot7"></p>
 					<div id="HotSpotBorder07"></div>
 					<div id="HotSpotBorder07_1"></div>
-					<!--        <img id="hotspot7plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot8" class="cur" style="display: block;">
 					<p id="hot8"></p>
 					<div id="HotSpotBorder08"></div>
-					<!--        <img id="hotspot8plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot9" class="cur" style="display: block;">
 					<p id="hot9"></p>
 					<div id="HotSpotBorder09"></div>
-					<!--        <img id="hotspot9plus" class="plus" src="">&nbsp;-->
+					
 				</div>
                 <div id="hotspot511" class="cur" style="display: block;">
 					<p id="hot511"></p>
 					<div id="HotSpotBorder511"></div>
-					<!--        <img id="hotspot51plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point18text" class="" style="display: none;">
@@ -961,49 +638,49 @@
 				<div id="hotspot10" class="cur" style="display: none;">
 					<p id="hot10"></p>
 					<div id="HotSpotBorder10"></div>
-					<!--        <img id="hotspot10plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot11" class="cur" style="display: none;">
 					<p id="hot11"></p>
 					<div id="HotSpotBorder11"></div>
-					<!--        <img id="hotspot11plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot12" class="cur" style="display: none;">
 					<p id="hot12"></p>
 					<div id="HotSpotBorder12"></div>
-					<!--        <img id="hotspot12plus" class="plus" src="">&nbsp;-->
+				
 				</div>
                    
 				<div id="hotspot13" class="cur" style="display: block;">
 					<p id="hot13"></p>
 					<div id="HotSpotBorder13"></div>
-					<!--        <img id="hotspot13plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot14" class="cur" style="display: block;">
 					<p id="hot14"></p>
 					<div id="HotSpotBorder14"></div>
-					<!--        <img id="hotspot14plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot15" class="cur" style="display: block;">
 					<p id="hot15"></p>
 					<div id="HotSpotBorder15"></div>
-					<!--        <img id="hotspot15plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot16" class="cur" style="display: block;">
 					<p id="hot16"></p>
 					<div id="HotSpotBorder16"></div>
-					<!--        <img id="hotspot16plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot17" class="cur" style="display: block;">
 					<p id="hot17"></p>
 					<div id="HotSpotBorder17"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot18" class="cur" style="display: block;">
 					<p id="hot18"></p>
 					<div id="HotSpotBorder18"></div>
 					<div id="HotSpotBorder18_1"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point19text" class="" style="display: none;">
@@ -1018,40 +695,34 @@
 				<div id="hotspot19" class="cur" style="display: block;">
 					<p id="hot19"></p>
 					<div id="HotSpotBorder19"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot20" class="cur" style="display: block;">
 					<p id="hot20"></p>
 					<div id="HotSpotBorder20"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot21" class="cur" style="display: block;">
 					<p id="hot21"></p>
 					<div id="HotSpotBorder21"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot22" class="cur" style="display: block;">
 					<p id="hot22"></p>
 					<div id="HotSpotBorder22"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot23" class="cur" style="display: block;">
 					<p id="hot23"></p>
 					<div id="HotSpotBorder23"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot24" class="cur" style="display: block;">
 					<p id="hot24"></p>
 					<div id="HotSpotBorder24"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
-<!--
-				<div id="hotspot25" class="cur" style="display: block;">
-					<p id="hot25"></p>
-					<div id="HotSpotBorder25"></div>
-					        <img id="hotspot17plus" class="plus" src="">&nbsp;
-				</div>
--->
+
 			</div>
 			<div id="point21text" class="" style="display: none;">
 				<p class="point21headingText"
@@ -1071,28 +742,28 @@
 				<div id="hotspot26" class="cur" style="display: block;">
 					<p id="hot26"></p>
 					<div id="HotSpotBorder26"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot27" class="cur" style="display: block;">
 					<p id="hot27"></p>
 					<div id="HotSpotBorder27"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot28" class="cur" style="display: block;">
 					<p id="hot28"></p>
 					<div id="HotSpotBorder28"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot29" class="cur" style="display: block;">
 					<p id="hot29"></p>
 					<div id="HotSpotBorder29"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot30" class="cur" style="display: block;">
 					<p id="hot30"></p>
 					<div id="HotSpotBorder30"></div>
 					<div id="HotSpotBorder30_1"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point24text" class="" style="display: none;">
@@ -1102,48 +773,48 @@
 				<div id="hotspot31" class="cur" style="display: block;">
 					<p id="hot31"></p>
 					<div id="HotSpotBorder31"></div>
-					<!--        <img id="hotspot10plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot32" class="cur" style="display: block;">
 					<p id="hot32"></p>
 					<div id="HotSpotBorder32"></div>
-					<!--        <img id="hotspot11plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot33" class="cur" style="display: block;">
 					<p id="hot33"></p>
 					<div id="HotSpotBorder33"></div>
-					<!--        <img id="hotspot12plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot34" class="cur" style="display: block;">
 					<p id="hot34"></p>
 					<div id="HotSpotBorder34"></div>
-					<!--        <img id="hotspot13plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot35" class="cur" style="display: block;">
 					<p id="hot35"></p>
 					<div id="HotSpotBorder35"></div>
-					<!--        <img id="hotspot14plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot36" class="cur" style="display: block;">
 					<p id="hot36"></p>
 					<div id="HotSpotBorder36"></div>
-					<!--        <img id="hotspot15plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot37" class="cur" style="display: block;">
 					<p id="hot37"></p>
 					<div id="HotSpotBorder37"></div>
-					<!--        <img id="hotspot16plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot38" class="cur" style="display: block;">
 					<p id="hot38"></p>
 					<div id="HotSpotBorder38"></div>
-					<!--        <img id="hotspot17plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot39" class="cur" style="display: block;">
 					<p id="hot39"></p>
 					<div id="HotSpotBorder39"></div>
 					<div id="HotSpotBorder39_1"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point25text" class="" style="display: none;">
@@ -1161,44 +832,44 @@
 				<div id="hotspot40" class="cur" style="display: block;">
 					<p id="hot40"></p>
 					<div id="HotSpotBorder40"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot41" class="cur" style="display: block;">
 					<p id="hot41"></p>
 					<div id="HotSpotBorder41"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot42" class="cur" style="display: block;">
 					<p id="hot42"></p>
 					<div id="HotSpotBorder42"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot43" class="cur" style="display: block;">
 					<p id="hot43"></p>
 					<div id="HotSpotBorder43"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot44" class="cur" style="display: block;">
 					<p id="hot44"></p>
 					<div id="HotSpotBorder44"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot45" class="cur" style="display: block;">
 					<p id="hot45"></p>
 					<div id="HotSpotBorder45"></div>
 					<div id="HotSpotBorder45_1"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 				<div id="hotspot46" class="cur" style="display: block;">
 					<p id="hot46"></p>
 					<div id="HotSpotBorder46"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 			</div>
 			<div id="point27text" class="" style="display: none;">
@@ -1219,28 +890,28 @@
 				<div id="hotspot47" class="cur" style="display: block;">
 					<p id="hot47"></p>
 					<div id="HotSpotBorder47"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot48" class="cur" style="display: block;">
 					<p id="hot48"></p>
 					<div id="HotSpotBorder48"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot49" class="cur" style="display: block;">
 					<p id="hot49"></p>
 					<div id="HotSpotBorder49"></div>
 					<div id="HotSpotBorder49_1"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 				<div id="hotspot50" class="cur" style="display: block;">
 					<p id="hot50"></p>
 					<div id="HotSpotBorder50"></div>
-					<!--        <img id="hotspot18plus" class="plus" src="">&nbsp;-->
+					
 				</div>
                 <div id="hotspot522" class="cur" style="display: block;">
 					<p id="hot522"></p>
 					<div id="HotSpotBorder522"></div>
-					<!--        <img id="hotspot52plus" class="plus" src="">&nbsp;-->
+					
 				</div>
 
 			</div>
@@ -1253,10 +924,10 @@
 				<p class="point2text1"></p>
 				<img src="" class="point2Img" />
 
-				<!--        <p class="point12text2"></p>-->
+				
 			</div>
 			<div id="home" class="cur">
-				              <img src="../../superblaze_demo_images/reset.png">
+				              <!-- <img src="../../superblaze_demo_images/reset.png"> -->
 			</div>
 			<div id="backText" class="noselect navDiv"></div>
 			<div id="playVideos1" style="display: none">
@@ -1268,18 +939,7 @@
 			<div id="playVideos3" style="display: none">
 				<img src="" alt="" />
 			</div>
-			<!--
-				<div id="fullScreen" onclick="launchFullscreen(window.parent.document.documentElement);"class="fullScreenBox" style="display:block"><img src="./images_gl/Fullscreen_01.png"/> </div>
-				<div id="fullScreenOff" onclick="exitFullscreen(window.parent.document.documentElement);"class="fullScreenBox" style="display:none">
-					<p style="font-family: 'Gotham-Book';color: #757577; font-size: 13px;   position: absolute;left: -46px;top: -5px;">Close</p>
-					<img src="./images_gl/white_close.png"  width="32px"/> 
-				</div>
--->
-			<!--
-				<div id="reset" class="btn2">
-					<div id="resetBtn" class="btn2"><img style="width:40px;height:40px;" src=""/></div>
-				</div>
--->
+		
 			<div id="maincanvasContainer">
                 <canvas style="margin-top: 0px;" id="dummy-canvas" width="1286" height="723"></canvas>
 			</div>

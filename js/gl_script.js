@@ -938,7 +938,12 @@ function onSuperBlazeReady() {
    if (mob) scene._bDoF = false;
    window.addEventListener('focus',onWindowFocus,false);
    window.addEventListener('blur',onWindowBlur,false);
-  
+   var enableZPrePass = true;
+   
+   if (scene._glVersionNum == 1 && scene.isiOS) {
+      //if (scene._glVersionNum==1 && (isIPAD || isDesktopIPAD)){
+      enableZPrePass = false;
+   }
    scene.gotoPosInTime(-0.199846,0.045921,-4.80196,5.55286,210.003,1,function () {
             
       scene.groupApplyState('SD650_ON');

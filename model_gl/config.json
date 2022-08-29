@@ -38,6 +38,6 @@
             "time": 0
         }
     },
-    "states": [ "4x_sxw", "4x_sxw_internal", "8x_dw", "8x_sw", "all_off", "all_on", "Cooling_OFF", "Cooling_ON", "GPU_SHOW_2_OFF", "GPU_SHOW_2_ON", "Reset", "SXM_NVLink_GPU_Card_OFF", "SXM_NVLink_GPU_Card_ON", "top_close", "top_open", "4x_DW_PCle_GPU_Card_OFF", "4x_DW_PCle_GPU_Card_ON", "8x_DW_PCle_GPU_Card_OFF", "8x_DW_PCle_GPU_Card_ON", "back_new_off", "back_new_on", "back_old_off", "back_old_on", "cooler_system", "d", "gpu_off", "gpu_on", "gpu_top_off", "gpu_top_on", "internal_hide", "internal_unhide" ],
+    "states": [ "4x_sxw", "4x_sxw_internal", "8x_dw", "8x_sw", "all_off", "all_on", "Cooling_OFF", "Cooling_ON", "GPU_SHOW_2_OFF", "GPU_SHOW_2_ON", "Reset", "Reset_new", "SXM_NVLink_GPU_Card_OFF", "SXM_NVLink_GPU_Card_ON", "top_close", "top_open", "4x_DW_PCle_GPU_Card_OFF", "4x_DW_PCle_GPU_Card_ON", "8x_DW_PCle_GPU_Card_OFF", "8x_DW_PCle_GPU_Card_ON", "back_new_off", "back_new_on", "back_old_off", "back_old_on", "cooler_system", "d", "gpu_off", "gpu_on", "gpu_top_off", "gpu_top_on", "internal_hide", "internal_unhide" ],
     "ver": "v2.0.547"
 }

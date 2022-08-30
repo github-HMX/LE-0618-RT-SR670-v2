@@ -2145,6 +2145,7 @@ function menu16Click() {
 
    scene.groupApplyState('4x_sxw_internal');
    scene.groupApplyState('top_open');
+   scene.groupApplyState('gpu_off');
    scene.groupApplyState('SXM_NVLink_GPU_Card_OFF');
    scene.groupApplyState('back_new_off');
    scene.gotoPosInTime(1.5708339999999996,1.5079644737231006,-14,5,280.882172,1000,function () {
